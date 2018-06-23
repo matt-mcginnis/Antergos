@@ -94,5 +94,6 @@ sudo cp ~/GitHub/Antergos/home/.oh-my-zsh/custom/auto-suggestions.zsh ~/.oh-my-z
 # Copy oh-my-zsh.sh script
 sudo cp ~/GitHub/Antergos/home/.oh-my-zsh/oh-my-zsh.sh ~/.oh-my-zsh/
 
-# Copy .zshrc personal configuration
+# Replace .zshrc with personal configuration
+rm ~/.zshrc
 cp ~/GitHub/Antergos/home/.zshrc ~/
