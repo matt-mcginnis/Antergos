@@ -89,7 +89,10 @@ cp -r ~/GitHub/Antergos/.vim/after/ ~/.vim/
 chsh -s /bin/zsh
 
 # Copy .oh-my-zsh/custom personal configurations
-sudo cp ~/GitHub/Antergos/home/.oh-my-zsh/custom/auto-suggestions.zsh ~/.oh-my-zsh/
+sudo cp ~/GitHub/Antergos/home/.oh-my-zsh/custom/auto-suggestions.zsh ~/.oh-my-zsh/custom/
+
+# Copy oh-my-zsh.sh script
+sudo cp ~/GitHub/Antergos/home/.oh-my-zsh/oh-my-zsh.sh ~/.oh-my-zsh/
 
 # Copy .zshrc personal configuration
 cp ~/GitHub/Antergos/home/.zshrc ~/
