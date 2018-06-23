@@ -5,7 +5,7 @@
 ##############################################
 
 # Enable NetworkManager
-sudo systemctle enable NetworkManager.service
+sudo systemctl enable NetworkManager.service
 
 #############################
 ##### home file changes #####
