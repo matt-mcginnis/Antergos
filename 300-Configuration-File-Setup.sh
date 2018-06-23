@@ -7,6 +7,9 @@
 # Enable NetworkManager
 sudo systemctl enable NetworkManager.service
 
+# Disable bell for X applications
+xset b off
+
 #############################
 ##### home file changes #####
 #############################
