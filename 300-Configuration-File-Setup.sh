@@ -44,6 +44,11 @@ cp ~/GitHub/Antergos/home/.Xmodmap ~/
 # Add .Xresources to ~/
 cp ~/GitHub/Antergos/home/.Xresources ~/
 
+# Add .Xstart.zsh to ~/
+# Be sure to add this as a startup application
+# in order to have .Xresources loaded on start
+cp ~/GitHub/Antergos/home/.Xstart.zsh ~/
+
 
 ###################################
 ##### Various System Settings #####
