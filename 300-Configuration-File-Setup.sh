@@ -75,10 +75,10 @@ heroku keys:add
 #####################
 
 # Copy .vimrc personal configuration
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.vimrc ~/
+cp ~/GitHub/Antergos/home/.vimrc ~/
 
 # Copy .vim/after/ personal configuration
-cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.vim/after/ ~/.vim/
+cp -r ~/GitHub/Antergos/.vim/after/ ~/.vim/
 
 
 #####################
@@ -89,7 +89,7 @@ cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.vim/after/ ~/.vim/
 chsh -s /bin/zsh
 
 # Copy .oh-my-zsh/custom personal configurations
-sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.oh-my-zsh/custom/auto-suggestions.zsh ~/.oh-my-zsh/
+sudo cp ~/GitHub/Antergos/home/.oh-my-zsh/custom/auto-suggestions.zsh ~/.oh-my-zsh/
 
 # Copy .zshrc personal configuration
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.zshrc ~/
+cp ~/GitHub/Antergos/home/.zshrc ~/
