@@ -32,3 +32,6 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
+
+# Install vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
