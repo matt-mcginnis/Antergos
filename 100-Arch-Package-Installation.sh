@@ -13,9 +13,6 @@
 ##### Loading Mirrors and Updating #####
 ########################################
 
-# Create mirror list
-sudo pacman-mirrors --geoip
-
 # Update repositories and packages
 sudo pacman -Syuu
 
