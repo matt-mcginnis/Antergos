@@ -56,6 +56,8 @@ sudo systemctl enable NetworkManager.service
 sudo systemctl enable syncthing@matt.service
 
 # Disable bell for X applications
+# You may have to run this in zsh 
+# again after it is installed
 xset b off
 
 #####################
