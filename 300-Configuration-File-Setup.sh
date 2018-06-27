@@ -44,6 +44,9 @@ cp ~/GitHub/Antergos/home/.Xmodmap ~/
 # Add .Xresources to ~/
 cp ~/GitHub/Antergos/home/.Xresources ~/
 
+# Add .XresourcesHiDPI to ~/
+cp ~/GitHub/Antergos/home/.XresourcesHiDPI ~/
+
 # Add .Xstart.zsh to ~/
 # Be sure to add this as a startup application
 # in order to have .Xresources loaded on start
