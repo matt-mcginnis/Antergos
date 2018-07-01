@@ -36,12 +36,6 @@ rm -rf fonts
 # Install vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-#############################################
-########## oh-my-fish Installation ##########
-#############################################
-
-curl -L https://get.oh-my.fish | fish
-
 ############################################
 ########## oh-my-zsh Installation ##########
 ############################################
