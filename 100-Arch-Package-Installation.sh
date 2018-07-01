@@ -36,6 +36,9 @@ sudo pacman -S dmenu
 # Install feh
 sudo pacman -S feh
 
+# Install fish
+sudo pacman -S fish
+
 # Install flash
 sudo pacman -S flashplugin
 
