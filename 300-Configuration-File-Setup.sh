@@ -98,12 +98,6 @@ cp -r ~/GitHub/Antergos/.vim/after/ ~/.vim/
 # Make zsh the default shell
 chsh -s /usr/bin/zsh
 
-# Copy .oh-my-zsh/custom personal configurations
-sudo cp ~/GitHub/Antergos/home/.oh-my-zsh/custom/auto-suggestions.zsh ~/.oh-my-zsh/custom/
-
-# Copy oh-my-zsh.sh script
-sudo cp ~/GitHub/Antergos/home/.oh-my-zsh/oh-my-zsh.sh ~/.oh-my-zsh/
-
 # Replace .zshrc with personal configuration
 rm ~/.zshrc
 cp ~/GitHub/Antergos/home/.zshrc ~/
