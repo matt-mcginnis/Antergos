@@ -57,6 +57,9 @@ curl https://cli-assets.heroku.com/install-standalone.sh | sh
 # Install i3-gaps, i3-wm, i3status, i3blocks and i3lock
 sudo pacman -S i3
 
+# Install jhead
+sudo pacman -S jhead
+
 # Install neofetch
 sudo pacman -S neofetch
 
