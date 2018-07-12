@@ -58,10 +58,10 @@ cp ~/GitHub/Antergos/home/.Xstart.zsh ~/
 ###################################
 
 # Enable NetworkManager
-sudo systemctl enable NetworkManager.service
+sudo systemctl enable --now NetworkManager.service
 
 # Enable syncthing
-sudo systemctl enable syncthing@matt.service
+sudo systemctl enable --now syncthing@matt.service
 
 # Disable bell for X applications
 # You may have to run this in zsh 
