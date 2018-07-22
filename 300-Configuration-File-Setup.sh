@@ -98,6 +98,13 @@ cp -r ~/GitHub/Antergos/.vim/after/ ~/.vim/
 # Make zsh the default shell
 chsh -s /usr/bin/zsh
 
+# Install zsh-autosuggestions
+cd ~/.oh-my-zsh/custom/plugins
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# Install zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
 # Replace .zshrc with personal configuration
 rm ~/.zshrc
 cp ~/GitHub/Antergos/home/.zshrc ~/
