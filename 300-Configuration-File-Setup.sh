@@ -33,10 +33,10 @@ sudo cp -r ~/GitHub/Antergos/.config/qutebrowser ~/.config/
 
 # Copy .bashrc personal configuration
 sudo rm ~/.bashrc
-cp ~/GitHub/Antergos-Linux-Cinnamon/home/.bashrc ~/
+cp ~/GitHub/Antergos/home/.bashrc ~/
 
 # Copy .tmux.conf personal configuration
-cp ~/GitHub/Antergos-Linux-Cinnamon/home/.tmux.conf ~/
+cp ~/GitHub/Antergos/home/.tmux.conf ~/
 
 # Add .Xmodmap to ~/
 cp ~/GitHub/Antergos/home/.Xmodmap ~/
