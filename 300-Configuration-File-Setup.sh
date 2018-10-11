@@ -26,6 +26,12 @@ cp -r ~/GitHub/Antergos/.config/ranger/ ~/.config/
 # Replace qutebrowser with personal configuration
 sudo cp -r ~/GitHub/Antergos/.config/qutebrowser ~/.config/
 
+############################
+##### usr file changes #####
+############################
+
+# A temporary wrapper fix for gvfs-trash to work in atom
+sudo cp ~/GitHub/Antergos/usr/bin/gvfs-trash /usr/bin/
 
 #############################
 ##### home file changes #####
