@@ -60,6 +60,9 @@ sudo pacman -S i3
 # Install jhead
 sudo pacman -S jhead
 
+# Install mono
+sudo pacman -S mono
+
 # Install neofetch
 sudo pacman -S neofetch
 
@@ -144,6 +147,9 @@ sudo pacman -S xorg-xbacklight
 
 # Install xorg-xrandr
 sudo pacman -S xorg-xrandr
+
+# Install xterm
+sudo pacman -S xterm
 
 # Install zathura
 sudo pacman -S zathura

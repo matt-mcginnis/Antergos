@@ -13,6 +13,9 @@ yaourt hacked-aio-righty
 # Install i3exit
 yaourt i3exit
 
+# Install mono-basic
+yaourt -S mono-basic
+
 # Install rxvt-unicode-pixbuf
 yaourt rxvt-unicode-pixbuf
 
