@@ -16,7 +16,7 @@ Xft.rgba:	rgb
 *background:		#151515
 *foreground:		#d0d0d0
 
-URxvt.font: 		xft:Dejavu\ Sans\ Mono\ for\ Powerline:size=10
+URxvt.font: 		xft:Dejavu\ Sans\ Mono\ for\ Powerline:size=16
 URxvt.scrollBar: 	false
 
 URxvt.depth:		32
@@ -56,3 +56,6 @@ URxvt.perl-ext-common: 	resize-font
 !! Disable Key Bindings
 URxvt.iso14755: 	false
 URxvt.iso14755_52: 	false
+
+! XTerm Font Settings
+XTerm.vt100.faceName: Monospace:size=16:antialias=false
