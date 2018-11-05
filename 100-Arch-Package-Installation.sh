@@ -63,6 +63,9 @@ sudo pacman -S jhead
 # Install mono
 sudo pacman -S mono
 
+# Install mono-tools
+sudo pacman -S mono-tools
+
 # Install neofetch
 sudo pacman -S neofetch
 
