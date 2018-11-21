@@ -13,6 +13,9 @@ yaourt hacked-aio-righty
 # Install i3exit
 yaourt i3exit
 
+# Install j4-dmenu-desktop-git
+yaourt j4-dmenu-desktop-git
+
 # Install mono-basic
 yaourt -S mono-basic
 
