@@ -98,6 +98,9 @@ sudo pip install --upgrade autopep8
 # Install isort
 sudo pip install isort
 
+# Install powerline-shell
+sudo pip install powerline-shell
+
 # Install pybeautifier
 sudo pip install pybeautifier
 
